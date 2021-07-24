@@ -2,7 +2,7 @@
 using namespace std;
 
 void calculate(int number) {
-    //Finfing a random number between 1-10
+    //Finding a random number between 1-10
     int randomNumber;
     randomNumber = rand() % 10 + 1;
   
@@ -17,7 +17,7 @@ void calculate(int number) {
 int main()
 {
     while (true) {
-        //Seeding rand for a true random number
+        //Seeding rand() for a true random number
         srand(time(NULL));
       
         float number;
