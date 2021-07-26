@@ -30,7 +30,7 @@ int main()
         //Asking user if they want to continue
         cout << "Continue? (y / n): ";
         cin >> cont;
-        //Break loop if user enters 'n'
+        //Breaking out of loop if user enters 'n'
         if (cont == 'n') {
             break;
         }
